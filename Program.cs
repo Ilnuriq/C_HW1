@@ -8,6 +8,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(a > b ? "Первое число больше второго" : "Второе число больше первого");
 */
 
+/*
 Console.WriteLine("Введите первое число: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -37,3 +38,15 @@ else
 {
     Console.WriteLine("Максимальное число: " + thirdNumber);
 }
+*/
+
+Console.WriteLine("Введите число:");
+int x = Convert.ToInt32(Console.ReadLine());
+        if ((x % 2) == 0)
+        {
+            Console.WriteLine("Четное");
+        }
+        else
+        {
+            Console.WriteLine("Нечетное");
+        }
